@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+using CursoCSharp.POO;
 
 namespace CursoCSharp
 {
@@ -41,8 +43,31 @@ namespace CursoCSharp
                 {"Desafio Atributo - Classes e Métodos", DesafioAtributo.Executar},
                 {"Params - Classes e Métodos", Params.Executar},
                 {"Parametros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
-                {"Getters e Setters - Classes e Métodos", GettersESetters.Executar},
-            });
+                {"Getters e Setters - Classes e Métodos", GetESet.Executar},
+                {"Propriedades - Classes e Métodos", Props.Executar},
+                {"Readonly - Classes e Métodos", Readonly.Executar},
+                {"Exemplo Enum - Classes e Métodos", ExemploEnum.Executar},
+                {"Struct - Classes e Métodos", Struct.Executar},
+                {"Struct VS Class - Classes e Métodos", StructVsClass.Executar},
+                {"Valor VS Referência - Classes e Métodos", ValorVsReferencia.Executar},
+                {"Parâmetros Por Referência - Classes e Métodos", ParametrosPorReferencia.Executar},
+                {"Parâmetro Padrão- Classes e Métodos", ParametroPadrao.Executar},
+
+                //COLEÇÕES
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"Array List - Coleções", ArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", Queue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", Stack.Executar},
+                {"Dictionary - Coleções", Dictionary.Executar},
+
+                // PROG ORIENTADA A OBJETOS
+                {"Herança - POO", Heranca.Executar},
+
+
+           });
 
             central.SelecionarEExecutar();
         }

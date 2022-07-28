@@ -20,6 +20,8 @@ namespace CursoCSharp.Fundamentos
             int a; //declaração de variavel, dizendo ipo e nome
             a = 33; //inicizalização da variável
 
+            Console.WriteLine(idade);
+            Console.WriteLine(a);
         }
     }
 }

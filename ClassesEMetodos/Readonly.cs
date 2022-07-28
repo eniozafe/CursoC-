@@ -4,11 +4,30 @@ using System.Text;
 
 namespace CursoCSharp.ClassesEMetodos
 {
+    public class Cliente
+    {
+        public string Nome;
+        readonly DateTime Nascimento;
+
+        public Cliente(string nome, DateTime nascimento)
+        {
+            Nome = nome;
+            Nascimento = nascimento;
+        }
+
+        public string GetDataDeNascimento()
+        {
+            return string.Format("{0}/{1}/{2}", Nascimento.Day, Nascimento.Month, Nascimento.Year);
+        }
+    }
     class Readonly
     {
         public static void Executar() //visível(public) - diretamente associada a classe(static) - nao retorna nada(void)
         {
+            var novoCliente = new Cliente("Ana Silva", new DateTime(1987, 5, 22));
 
+            Console.WriteLine(novoCliente.Nome);
+            Console.WriteLine(novoCliente.GetDataDeNascimento());
         }
     }
 }
