@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.POO;
+using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.ExplorandoAPI;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp
 {
@@ -21,7 +24,7 @@ namespace CursoCSharp
                 {"Inferência - Fundamentos", Inferencia.Executar},
                 {"Interpolação - Fundamentos", Interpolacao.Executar},
                 {"Notação Ponto - Fundamentos", NotacaoPonto.Executar},
-                {"Lendo Dados do Console - Fundamentos", LendoDados.Executar},
+                {"Lendo Dados do Console - Fundamentos", Fundamentos.LendoDados.Executar},
                 {"Formatando Números - Fundamentos", FormatandoNumeros.Executar},
                 {"Conversões - Fundamentos", Conversoes.Executar},
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
@@ -65,7 +68,38 @@ namespace CursoCSharp
 
                 // PROG ORIENTADA A OBJETOS
                 {"Herança - POO", Heranca.Executar},
+                {"Construtor This - POO", ConstrutorThis.Executar},
+                {"Encapsulamento - POO", POO.Encapsulamento.Executar},
+                {"Polimorfismo - POO", Polimorfismo.Executar},
+                {"Classe Abstrata - POO", Abstract.Executar},
+                {"Interface - POO", Interface.Executar},
+                {"Sealed - POO", Sealed.Executar},
 
+                //MÉTODOS E FUNÇÕES
+                {"Exemplo Lambda - Métodos e Funções", Lambda.Executar},
+                {"Lambdas como Delegate - Métodos e Funções", LambdasDelegate.Executar},
+                {"Usando Delegate - Métodos e Funções", UsandoDelegate.Executar},
+                {"Delegate com Funções Anônimas - Métodos e Funções", DelegateFuncAnonima.Executar},
+                {"Delegates como Parâmetros - Métodos e Funções", DelegatesComoParametros.Executar},
+                {"Métodos de Extensão - Métodos e Funções", MetodosExtensao.Executar},
+
+
+                //EXCEÇÕES E TRATAMENTO DE ERROS
+                {"Exceções e Tratamento Erros", ExcecoesErros.Executar},
+                {"Exceções Personalizadas", ExcecoesPersonalizadas.Executar},
+
+                //EXPLORANDO API
+                {"Arquivo: Escrevendo Dados - Explorando API", EscrevendoDados.Executar},
+                {"Arquivo: Lendo Dados - Explorando API", ExplorandoAPI.LendoDados.Executar},
+                {"Usando o File Info - Explorando API", FileInfo.Executar},
+                {"Diretórios - Explorando API", Diretorios.Executar},
+
+                //TÓPICOS AVANÇADOS
+                {"LINQ #1- Tópicos Avançados", LINQ1.Executar},
+                {"LINQ #2- Tópicos Avançados", LINQ2.Executar},
+                {"Nullables - Tópicos Avançados", TopicosAvancados.Nullable.Executar},
+                {"Dynamics - Tópicos Avançados", Dynamics.Executar},
+                {"Generics - Tópicos Avançados", Generics.Executar},
 
            });
 
